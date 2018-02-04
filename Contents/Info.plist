@@ -9,7 +9,7 @@
   <key>CFBundleIdentifier</key>
   <string>jhermsmeier.template.math</string>
   <key>CFBundleName</key>
-  <string>GitHub-MathML</string>
+  <string>IBM Plex</string>
   <key>CFBundleShortVersionString</key>
   <string>1.1.0</string>
   <key>CFBundleVersion</key>
@@ -23,8 +23,8 @@
   <key>IATemplateDescription</key>
   <string>Document with support for Math</string>
   <key>IATemplateAuthor</key>
-  <string>Jonas Hermsmeier</string>
+  <string>Ferdinand Vogler</string>
   <key>IATemplateAuthorURL</key>
-  <string>https://jhermsmeier.de</string>
+  <string>https://ferdinandvogler.com</string>
 </dict>
 </plist>

@@ -1,10 +1,10 @@
 {
-  "name": "github-mathml",
+  "name": "ia-writer-ibm-plex",
   "private": true,
   "version": "1.0.1",
   "description": "iA Writer template with support for Math",
   "license": "MIT",
-  "author": "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://jhermsmeier.de)",
+  "author": "Ferdinand Vogler",
   "keywords": [
     "iawriter",
     "ia",
@@ -19,19 +19,19 @@
   },
   "peerDependencies": {},
   "optionalDependencies": {},
-  "homepage": "https://github.com/jhermsmeier/github-math-iatemplate",
+  "homepage": "https://github.com/fv0/ia-writer-ibm-plex",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jhermsmeier/github-math-iatemplate.git"
+    "url": "https://github.com/fv0/ia-writer-ibm-plex"
   },
   "bugs": {
-    "url": "https://github.com/jhermsmeier/github-math-iatemplate/issues"
+    "url": "https://github.com/fv0/ia-writer-ibm-plex/issues"
   },
   "scripts": {
     "style": "github-markdown-css > Contents/Resources/github-markdown.css",
-    "iatemplate": "rm -r build/github-mathml.iatemplate; mkdir -p build/github-mathml.iatemplate; cp -r ./Contents build/github-mathml.iatemplate/",
-    "zip": "rm build/GitHub-MathML.zip; zip -r -9 build/GitHub-MathML.zip build/github-mathml.iatemplate/ -x build/github-mathml.iatemplate/**/.DS_Store",
+    "iatemplate": "rm -r build/ia-writer-ibm-plex.iatemplate; mkdir -p build/ia-writer-ibm-plex.iatemplate; cp -r ./Contents build/ia-writer-ibm-plex.iatemplate/",
+    "zip": "rm build/ia-writer-ibm-plex.zip; zip -r -9 build/ia-writer-ibm-plex.zip build/ia-writer-ibm-plex.iatemplate/ -x build/ia-writer-ibm-plex.iatemplate/**/.DS_Store",
     "bundle": "npm run iatemplate; npm run zip",
-    "postinstall": "npm run iatemplate; open build/github-mathml.iatemplate"
+    "postinstall": "npm run iatemplate; open build/ia-writer-ibm-plex.iatemplate"
   }
 }
